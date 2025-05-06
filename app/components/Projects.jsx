@@ -1,13 +1,11 @@
 "use client"
-
-import React from 'react'
 import Image from 'next/image'
 import { projectsData } from '../Data/data'
 
 const Projects = () => {
     console.log("proj", projectsData[0].include[0])
     return (
-        <div id='project' className='w-full px-[12%] flex flex-col justify-evenly items-center min-h-screen scroll-mt-20 text-gray-50'>
+        <div id='project' className='w-full px-[12%] mb-20  flex flex-col justify-evenly items-center min-h-screen scroll-mt-20 text-gray-50'>
             <h1>All Projects</h1>
             
             <div className='w-full' >

@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Connect from "./components/connect";
+import Connect from "./components/Connect";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";

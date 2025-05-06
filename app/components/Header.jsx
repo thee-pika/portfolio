@@ -27,7 +27,7 @@ const Header = () => {
                             />
                         </span>
                     </a>
-                    <a href="#download" download className=' flex items-center ml-4 bg-gray-400 font-Ovo sm:text-lg text-xs gap-2 rounded-full p-3 sm:px-8 sm:py-3 text-black border border-gray-900'>
+                    <a href="#download" download className=' flex items-center ml-4 bg-gray-400 hover:bg-gray-50 font-Ovo sm:text-lg text-xs gap-2 rounded-full p-3 sm:px-8 sm:py-3 text-black border border-gray-900'>
                         my resume <Image
                             src={"/assests/downloadArrow.png"}
                             alt='right'
@@ -61,8 +61,7 @@ const Header = () => {
                             alt="linkedin"
                             width={50}
                             height={50}
-                         className='bg-white rounded-full opacity-50 hover:opacity-100 cursor-pointer '
-                            
+                         className='bg-white rounded-full opacity-50 hover:opacity-100 cursor-pointer '                           
                         />
                     </div>
                 </div>
